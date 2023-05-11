@@ -1,0 +1,135 @@
+* {
+    font-family: Product Sans Font, sans-serif
+}
+
+.main {
+    overflow: hidden;
+}
+
+body {
+    /*background: url("background.jpg");*/
+    background-color: #2A2F4F;
+}
+
+ul li {
+    justify-content: space-around;
+    list-style: none;
+    display: inline-block;
+    color: #EAF6F6;
+
+}
+/*.home{*/
+/*    margin-right: 0%;*/
+
+/*}*/
+
+.login_div {
+    margin-top: 20px;
+    display: flex;
+}
+
+
+.brand_name {
+    margin-top: 1%;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    margin-right: 7%;
+
+}
+
+.top_nav_div {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+
+/*.join_us button {*/
+/*    background-color: #19A7CE;*/
+/*    color: #EAF6F6;*/
+/*    border: 0;*/
+/*    padding-bottom: 20px;*/
+/*    text-transform: capitalize;*/
+/*    font-weight: bold;*/
+/*    border-radius: 20px;*/
+/*    cursor: pointer;*/
+/*    text-align: center;*/
+/*    margin-bottom: 2%;*/
+/*}*/
+
+ button {
+    padding: 10px 30px 10px 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    background-color: #009FBD;
+    border-radius: 3px;
+    border: 0;
+    color: white;
+    margin-bottom:15% ;
+}
+
+.login {
+    color: #EAF6F6;
+    border: 0;
+    text-transform: capitalize;
+    font-weight: bold;
+    
+}
+
+.welcome {
+    color: #009FBD;
+    font-weight: bold;
+    text-align: center;
+}
+
+hr {
+    border-block-color: blue;
+
+}
+
+.middle_cont {
+    text-align: center;
+    color: #EAF6F6;
+    height: 20%;
+}
+
+.down_side {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+
+}
+.join_us{
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    margin-right: 20px;
+}
+
+.left_side_div{
+    background-color: white;
+    /*margin-left: 2%;*/
+    height: inherit;
+    /*width: inherit;*/
+
+}
+.middle_div{
+    background-color: #EAF6F6;
+    /*margin-left: 2%;*/
+}
+.right_div{
+    background-color: #009FBD;
+    /*margin-left: 5%*/
+}
+.more{
+    background-color: #2A2F4F;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+    border: solid 1px #009FBD
+}
+
+
+
+
+
+
+
